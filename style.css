@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+body{
+    background-color: aqua;
+}
+.title{
+    margin-bottom: 50px;
+    font-size: 70px;
+}
+.blockQuestion{
+    border-top: 2px solid rgba(128, 128, 128, 0.658);
+    width: 50%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleQuestion{
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.inputText{
+    height: 40px;
+    width: 45%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgba(138, 131, 131, 0.726);
+    background-color: transparent;
+    font-size: 30px;
+    color: rgb(249, 251, 252);
+}
+#checkRes{
+    width: 175px;
+    height: 65px;
+    background-color: transparent;
+    border: none;
+    border: 3px solid rgba(0, 0, 0, 0.836);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition: 0.3s linear;
+}
+#checkRes:hover{
+    background-color: rgba(231, 235, 235, 0.986);
+    color: rgb(180, 182, 184);
+    transform: scale(1.2);
+}
+.container:last-child{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.658);
+}
